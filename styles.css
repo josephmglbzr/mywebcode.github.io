@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma;
+}
+@media (max-width: 520px){
+    #header{
+        display: flex;
+        flex-direction: column;
+    }
+    #header-img{
+        margin: 0 auto;
+        width: 200px;
+        height: 50px;
+    }
+    nav ul{
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    nav li{
+        margin: 1em;
+        padding: 0;
+    }
+    nav a{
+        font-size: 16px;
+    }
+    .container{
+        width: 100px;
+        height: 300px;
+        margin: 0 auto;
+    }
+    #tutorial{
+    
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+       
+    }
+    #frame{
+        width: 100px;
+        height: 100px;
+    }
+  
+    #features{
+       
+        max-width: 300px;
+        width: 50%;
+  
+   margin: 0 auto;
+       
+     }
+     .icon-style{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    
+   
+    
+}
+.container{
+    max-width: 1300px;
+    width: 95%;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+    background: white;
+}
+#form {
+    display: block;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+h2{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+  
+
+}
+#email{
+    width: 300px;
+    height: 30px;
+    border-radius: .75em;
+    margin-bottom: 2em;
+    font-size: .855rem;
+   
+    
+}
+
+#submit{
+    width: 150px;
+    height: 40px;
+    background-color: orange;
+    font-size: 1.25em;
+    color: #fff;
+    border: none;
+    
+}
+#submit:hover{
+    background: #1b1b32;
+    color: white;
+    
+}
+#form{
+   
+    margin: 1em auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+nav li{
+    margin: 2em;
+}
+nav a{
+    color: #000;
+    text-decoration: none;
+    
+}
+nav a:hover{
+    color: red;
+}
+#features{
+   max-width: 800px;
+   width: 85%;
+  
+   margin: 0 auto;
+}
+.text-icon{
+    display: block;
+    margin: 0 3em;
+}
+.icon-style{
+    display: flex;
+    align-items: center;
+    padding: 1em 2em;
+    margin-left: 4em;
+    
+}
+h1{
+    margin-bottom: .255em;
+    font-weight: 500;
+}
+#frame{
+    width: 100%;
+    height: 400px;
+}
+#tutorial{
+    border: 2px solid black;
+    margin: 0 auto;
+    width: 600px;
+    height: 400px;
+}
+.price-container{
+    width: 400px;
+    height: 350px;
+    border: 1px solid #000;
+    align-items: center;
+    
+}
+.flex-container{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    margin: 5.255em 1em;
+    flex-wrap: wrap;
+}
+.acoustic{
+    margin: 3.25em 2em 0 2em;
+}
+.yamaha{
+    margin: 2em 8.2em;
+}
+.bromo{
+    margin: 2em 2em;
+}
+.guit{
+    margin: 3em 3em;
+}
+#footer-1{
+    background-color: #1b1b32;
+    padding: 2rem;
+}
+#ul-1{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+#ul-1 #li-1{
+    padding: 1em;
+}
+#ul-1 a{
+    color: gray;
+    text-decoration: none;
+}
+.acoustic-price{
+    margin-left: 1em;
+}
+h3{
+    font-weight: 500;
+    text-align: center;
+}
